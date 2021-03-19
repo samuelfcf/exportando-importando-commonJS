@@ -1,10 +1,8 @@
 class Planet {
-  constructor(name, surfaceArea) {
+  constructor(name, distToSum) {
     this.name = name
-    this.surfaceArea = surfaceArea
-  }
-  rotate() {
-    alert("Rotacionando!")
+    this.distToSum = distToSum
   }
 }
+
 module.exports = Planet
