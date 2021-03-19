@@ -3,9 +3,9 @@ const convertion = require('./convertion')
 
 import Spaceship from "./spaceship"
 import armament from "./armaments"
+import {laserDefenses, steelDefenses} from "./defenses"
 
-
-const SPACESHIP = new Spaceship("Esparta", "Samuel el", armament.laser, "FULL")
+const SPACESHIP = new Spaceship("Esparta", "Samuel el", armament.laser, laserDefenses)
 
 let planets = [
   new Planet("Mercúrio", 0.39),
